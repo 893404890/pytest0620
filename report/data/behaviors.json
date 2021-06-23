@@ -1,0 +1,44 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_hook[周旭-23]",
+    "uid" : "2bc58598018d6878",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624489592807,
+      "stop" : 1624489592807,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "23", "'周旭'" ]
+  }, {
+    "name" : "test_hook[覃雨-22]",
+    "uid" : "d9ced8fe7d94931a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624489592807,
+      "stop" : 1624489592807,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "22", "'覃雨'" ]
+  }, {
+    "name" : "test_hook[durant-32]",
+    "uid" : "fcdd5f8e7a761180",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624489592823,
+      "stop" : 1624489592823,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "32", "'durant'" ]
+  } ]
+}

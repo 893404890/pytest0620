@@ -1,0 +1,70 @@
+{
+  "uid" : "fcdd5f8e7a761180",
+  "name" : "test_hook[durant-32]",
+  "fullName" : "testcase.test_hook#test_hook",
+  "historyId" : "ded9d72f766c6eca455e5b26eb787bd1",
+  "time" : {
+    "start" : 1624489592823,
+    "stop" : 1624489592823,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "add"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_hook"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DTAGS45"
+  }, {
+    "name" : "thread",
+    "value" : "10628-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_hook"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "age",
+    "value" : "32"
+  }, {
+    "name" : "name",
+    "value" : "'durant'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "174ae60364ced7f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624489482041,
+        "stop" : 1624489482041,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "add" ]
+  },
+  "source" : "fcdd5f8e7a761180.json",
+  "parameterValues" : [ "32", "'durant'" ]
+}
