@@ -1,9 +1,14 @@
 #conftest是预先加载的
+import logging
 from typing import List
 
 import pytest
 import yaml
-
+@pytest.fixture(scope="class")
+def myfi():
+    print('开始计算')
+    yield
+    print('结束计算')
 #获取yaml数据
 def getdata():
     with open('./testdata/calculator.yaml') as f:
@@ -13,7 +18,11 @@ def getdata():
 getdatas=getdata()
 #返回加法运算数据
 @pytest.fixture(params=getdatas['data1'],ids=getdatas['ids1'])
-def getData(request):
+def getaddData(request):
+    return  request.param
+# 返回乘法运算数据
+@pytest.fixture(params=getdatas['data4'],ids=getdatas['ids4'])
+def getdivData(request):
     return  request.param
 #改写putest_collection_modifyitems方法
 #收集上所有的测试用例之后，修改iteams方法

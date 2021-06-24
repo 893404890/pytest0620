@@ -1,0 +1,1 @@
+INFO     root:test_calculator.py:14 test_add_[0, 0, 0]

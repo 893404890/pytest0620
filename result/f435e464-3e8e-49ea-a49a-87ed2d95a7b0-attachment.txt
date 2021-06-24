@@ -1,0 +1,1 @@
+INFO     root:test_calculator.py:22 【开始计算】_[2, 1, 2]

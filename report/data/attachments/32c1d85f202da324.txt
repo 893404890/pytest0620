@@ -1,0 +1,1 @@
+DEBUG    root:test_calculator.py:14 test_add_<class 'set'>_[2, 3, 5]

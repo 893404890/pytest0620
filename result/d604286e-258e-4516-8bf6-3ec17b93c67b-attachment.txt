@@ -1,0 +1,1 @@
+DEBUG    root:test_calculator.py:14 test_add_<class 'set'>_[0.13, 0.65, 0.78]

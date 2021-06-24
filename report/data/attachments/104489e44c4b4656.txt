@@ -1,0 +1,1 @@
+INFO     root:test_calculator.py:22 test_div_[0.99, 0.33, 3]

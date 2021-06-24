@@ -1,0 +1,1 @@
+INFO     root:test_calculator.py:22 test_div_[5, 0, 'divisor cannot be 0']

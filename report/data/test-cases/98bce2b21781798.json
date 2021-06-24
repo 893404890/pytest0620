@@ -1,0 +1,187 @@
+{
+  "uid" : "98bce2b21781798",
+  "name" : "测试除法:[2, 2, 1]",
+  "fullName" : "testcase.test_calculator.TestCalculator#test_mul",
+  "historyId" : "b82bb3fe88f0f10981593a07b667299e",
+  "time" : {
+    "start" : 1624496475585,
+    "stop" : 1624496475585,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "getdivData",
+    "time" : {
+      "start" : 1624496475585,
+      "stop" : 1624496475585,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3ba72dfb15ec4a12",
+      "name" : "log",
+      "source" : "3ba72dfb15ec4a12.txt",
+      "type" : "text/plain",
+      "size" : 119
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试计算器"
+  }, {
+    "name" : "story",
+    "value" : "测试除法"
+  }, {
+    "name" : "tag",
+    "value" : "div"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_calculator"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalculator"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DTAGS45"
+  }, {
+    "name" : "thread",
+    "value" : "4180-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_calculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "getdivData",
+    "value" : "[2, 2, 1]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "89c66d8a59e882b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624496373249,
+        "stop" : 1624496373249,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9776d4bc98ab9fe4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624496285439,
+        "stop" : 1624496285455,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "be3a167af0ed621b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624496155767,
+        "stop" : 1624496155767,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c0954e1088a11f0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624496116606,
+        "stop" : 1624496116606,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "de971543b8b37145",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624495935250,
+        "stop" : 1624495935266,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "6d49080cf64ea9f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624495901367,
+        "stop" : 1624495901367,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a1858714961bf439",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624495414415,
+        "stop" : 1624495414415,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d9d1171f30948fae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624495101161,
+        "stop" : 1624495101161,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3c8d968469a50427",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624494964824,
+        "stop" : 1624494964824,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f67e56eaab38a2bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624494750848,
+        "stop" : 1624494750848,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "45e5d7dffea5fc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624494719317,
+        "stop" : 1624494719317,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "div" ]
+  },
+  "source" : "98bce2b21781798.json",
+  "parameterValues" : [ "[2, 2, 1]" ]
+}
